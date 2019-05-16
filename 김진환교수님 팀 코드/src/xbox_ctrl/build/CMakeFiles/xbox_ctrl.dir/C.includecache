@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/xbox_ctrl/gamepad.h
+
+/home/wognl/test_ws/src/xbox_ctrl/src/gamepad.c
+math.h
+-
+string.h
+-
+errno.h
+-
+malloc.h
+-
+xbox_ctrl/gamepad.h
+/home/wognl/test_ws/src/xbox_ctrl/src/xbox_ctrl/gamepad.h
+windows.h
+/home/wognl/test_ws/src/xbox_ctrl/src/windows.h
+xinput.h
+/home/wognl/test_ws/src/xbox_ctrl/src/xinput.h
+linux/joystick.h
+-
+stdio.h
+-
+fcntl.h
+-
+unistd.h
+-
+libudev.h
+-
+

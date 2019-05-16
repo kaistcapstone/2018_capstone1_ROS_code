@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: xbox_ctrl
+Description: Description of xbox_ctrl
+Version: 0.1.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lxbox_ctrl
+Requires: roscpp

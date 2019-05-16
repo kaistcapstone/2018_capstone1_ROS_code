@@ -1,0 +1,9 @@
+time stamp
+bool left
+bool right
+bool above
+bool exist
+bool left2
+bool right2
+float32 lbr
+float32 rbl

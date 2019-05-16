@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="data_integrate" type="station_test" name="station_test"/>
+    <node pkg="data_integrate" type="data_integation_node" name="data_integation_node"/>
+</launch>

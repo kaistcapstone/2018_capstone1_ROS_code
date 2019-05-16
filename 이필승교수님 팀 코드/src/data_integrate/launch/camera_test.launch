@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="opencv_detect" type="ball_detect_node_cv" name="ball_detect_node_cv"/>
+    <node pkg="image_transport_tutorial" type="my_publisher" name="my_publisher"/>
+</launch>
